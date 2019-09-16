@@ -1,0 +1,1 @@
+telas = telaatual.boss1;
