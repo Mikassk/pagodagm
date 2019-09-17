@@ -30,5 +30,6 @@ ultimoEstado = noone;
 bate = 0;
 abaixar = 0;
 anda = 0;
+anda_ = 0;
 
 #endregion variaveis

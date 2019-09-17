@@ -31,11 +31,18 @@ else
 	}
 }
 //ataque
-if(keyatk){
+if(keyatk && !anda_){
 	bate = 1;
 	estadoAtual = estado_personagem.ataque;
 }
-if(keydown){
+if(keydown && !anda_){
 	abaixar = 1;
 	estadoAtual = estado_personagem.abaixa;
+}
+if(keyboard_check(vk_left) || keyright){
+	anda_ = 1;
+}
+
+if(!keyboard_check(vk_left) && !keyright){
+	anda_ = 0;
 }

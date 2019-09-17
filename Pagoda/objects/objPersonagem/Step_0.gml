@@ -1,4 +1,6 @@
 /// @description
+
+#region status // tamanho
 image_yscale = 2;
 if(move != 0)
 {
@@ -17,6 +19,8 @@ else
 {
 	image_speed = 0;
 }
+#endregion status // tamanho
+
 if(bate){ // completar animação de bater
 	if(image_index > image_number -1){
 		bate = 0;
@@ -42,5 +46,6 @@ if(abaixar){
 			abaixar = 0;
 		}
 	}
+	
 	
 }
