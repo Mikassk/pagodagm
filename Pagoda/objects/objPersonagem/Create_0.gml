@@ -28,5 +28,7 @@ ultimoEstado = noone;
 
 #region variaveis
 bate = 0;
+abaixar = 0;
+anda = 0;
 
 #endregion variaveis

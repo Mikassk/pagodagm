@@ -5,7 +5,7 @@ image_speed = 0;
 mask = sprMaskParede;
 nonMask = sprNonMaskParede;
 
-mask_index = mask;
+//mask_index = mask;
 
 tipo = 0; //0 - Parede; 1 - Plataforma; 2 - Puf; 3 - Esteira;
 

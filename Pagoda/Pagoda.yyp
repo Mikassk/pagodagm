@@ -1527,6 +1527,14 @@
             }
         },
         {
+            "Key": "7f5ac583-0204-446d-89a7-5fe7d9b8fab5",
+            "Value": {
+                "id": "a3dbefff-41ca-43af-a48a-7d72c92a8424",
+                "resourcePath": "sprites\\sprPersonagemAbaixa\\sprPersonagemAbaixa.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "7f7e1d41-9af2-4afc-8a10-1cf2c528c90c",
             "Value": {
                 "id": "7e14bcac-cb73-461c-96ab-0bd6a1445bba",
@@ -2044,6 +2052,14 @@
                 "id": "f2f52173-e942-477f-8d4d-c06e10939b90",
                 "resourcePath": "views\\a6281847-da65-4afc-b846-a218f643697f.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "a633f591-053e-46c4-8126-5e16a766606c",
+            "Value": {
+                "id": "cfc1f038-3283-4203-8a0c-31d644674768",
+                "resourcePath": "paths\\path_ikuchitorre\\path_ikuchitorre.yy",
+                "resourceType": "GMPath"
             }
         },
         {

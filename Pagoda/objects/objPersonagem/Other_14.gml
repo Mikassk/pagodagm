@@ -14,7 +14,7 @@ switch(estadoAtual)
 		sprite_index = sprPersonagemParado;
 		break;
 	case estado_personagem.andando:
-		image_speed = (1 / movespeed) * movespeed;
+		image_speed = 1;
 		sprite_index = sprPersonagemAndando;
 		break;
 	case estado_personagem.pulando:
@@ -26,10 +26,14 @@ switch(estadoAtual)
 		sprite_index = sprPersonagemCaindo;
 		break;
 		
-		case estado_personagem.ataque:
+	case estado_personagem.ataque:
 		image_speed = 1;
 		sprite_index = sprPersonagemAtacando;
 		break;
+	case estado_personagem.abaixa:
+		image_speed = 1;
+		sprite_index = sprPersonagemAbaixa;
+		break;		
 		
 	default:
 		break;

@@ -11,8 +11,9 @@ if(place_meeting(x, y + 1, objParede))
 	    if(move != 0)
 	    {
 	        estadoAtual = estado_personagem.andando;
+			anda = 1;
 	    }
-	    else
+	    else if(move == 0 && !anda && !abaixar)
 		{
 			estadoAtual = estado_personagem.parado;
 		}
@@ -33,4 +34,8 @@ else
 if(keyatk){
 	bate = 1;
 	estadoAtual = estado_personagem.ataque;
+}
+if(keydown){
+	abaixar = 1;
+	estadoAtual = estado_personagem.abaixa;
 }
