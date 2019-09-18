@@ -21,11 +21,11 @@ if(place_meeting(x, y + 1, objParede))
 }
 else
 {
-    if(vsp < 0)
+    if(vsp < 0 && !pulo2)
 	{
 		estadoAtual = estado_personagem.pulando;
 	}
-	else
+	else if(vsp >0 && !pulo2)
 	{
 		estadoAtual = estado_personagem.caindo;
 	}
@@ -45,4 +45,8 @@ if(keyboard_check(vk_left) || keyright){
 
 if(!keyboard_check(vk_left) && !keyright){
 	anda_ = 0;
+}
+if((keyjump) && (jumps < 1)){
+	estadoAtual = estado_personagem.puloduplo;
+	pulo2 = 1;
 }

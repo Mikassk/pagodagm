@@ -33,7 +33,11 @@ switch(estadoAtual)
 	case estado_personagem.abaixa:
 		image_speed = 1;
 		sprite_index = sprPersonagemAbaixa;
-		break;		
+		break;	
+	case estado_personagem.puloduplo:
+		image_speed = 1;
+		sprite_index = sprPersonagemRoda;
+		break;
 		
 	default:
 		break;

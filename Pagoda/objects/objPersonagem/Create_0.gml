@@ -31,5 +31,6 @@ bate = 0;
 abaixar = 0;
 anda = 0;
 anda_ = 0;
+pulo2 = 0;
 
 #endregion variaveis

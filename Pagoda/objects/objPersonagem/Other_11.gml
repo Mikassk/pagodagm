@@ -12,18 +12,20 @@ if(vsp < 10)
 if(place_meeting(x, y + 1, objParede))
 {
     jumps = jumpsmax;
+	pulo2 = 0;
 }
 else
 {
     if(jumps == jumpsmax)
 	{
+		
 		jumps -= 1;
 	}
 }
 
 if((keyjump) && (jumps > 0))
 {
-    jumps -= 1;
+	jumps -= 1;
     vsp = -jumpspeed;
 }
 
