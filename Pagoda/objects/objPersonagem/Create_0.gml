@@ -9,7 +9,10 @@ vsp = 0; //Velocidade Vertical
 movespeed = 4; //Velocidade de movimento
 jumps = 0; //Pulos
 jumpsmax = 2; //Pulos máximos
-jumpspeed = 10; //Velocidade do pulo
+jumpspeed = 12; //Velocidade do pulo
+
+
+vspmax = 0;
 
 keyleft = noone;
 keyright = noone;

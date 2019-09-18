@@ -3,7 +3,7 @@
 move = keyleft + keyright;
 hsp = move * movespeed;
 
-if(vsp < 10)
+if(vsp < 20)//(vsp < 10)
 {
 	vsp += grav;
 }
@@ -31,6 +31,10 @@ if((keyjump) && (jumps > 0))
 
 if(vsp < 0)
 {
+	
 	vsp = max(vsp, -jumpspeed / 2);
 }
-
+if(vsp < vspmax){
+	vspmax = vsp;
+}
+	
