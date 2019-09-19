@@ -255,7 +255,8 @@ enum key {
 	right = vk_right,
 	jump = vk_space,
 	down = vk_down,
-	atk = ord("Z")
+	atk = ord("Z"),
+	up = vk_up
 };
 
 enum estado_personagem {
@@ -266,7 +267,8 @@ enum estado_personagem {
 	ataque,
 	morre,
 	abaixa,
-	puloduplo
+	puloduplo,
+	cima
 };
 
 #endregion Jogo de plataforma

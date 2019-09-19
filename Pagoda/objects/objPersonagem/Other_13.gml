@@ -13,7 +13,7 @@ if(place_meeting(x, y + 1, objParede))
 	        estadoAtual = estado_personagem.andando;
 			anda = 1;
 	    }
-	    else if(move == 0 && !anda && !abaixar)
+	    else if(move == 0 && !anda && !abaixar && !olhacima)
 		{
 			estadoAtual = estado_personagem.parado;
 		}
@@ -49,4 +49,11 @@ if(!keyboard_check(vk_left) && !keyright){
 if((keyjump) && (jumps < 1)){
 	estadoAtual = estado_personagem.puloduplo;
 	pulo2 = 1;
+}
+if(move == 0 && keyup && jumps>1){
+	estadoAtual = estado_personagem.cima;
+	olhacima = 1;
+}
+else{
+	olhacima = 0;
 }
