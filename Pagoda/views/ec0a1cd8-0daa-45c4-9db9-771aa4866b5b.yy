@@ -9,7 +9,8 @@
         "fed799d2-d309-4f19-ae4f-6b9cf4f3fcca",
         "54566a1a-6baa-455e-8f6c-a28712d653e8",
         "12169ced-d99c-4994-be4f-8a8a886c4a83",
-        "527ab1e9-6dac-40fc-9aa9-bd1fe9e1ac37"
+        "527ab1e9-6dac-40fc-9aa9-bd1fe9e1ac37",
+        "5ec9ca00-8c8e-40bb-8163-2210b2267a4a"
     ],
     "filterType": "GMObject",
     "folderName": "Controle",

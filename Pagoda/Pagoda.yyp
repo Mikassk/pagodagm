@@ -263,6 +263,14 @@
             }
         },
         {
+            "Key": "183c4620-ea23-4366-bfe9-f917c427945d",
+            "Value": {
+                "id": "a6e4f004-2348-462b-b460-21c58d393d66",
+                "resourcePath": "sprites\\sprOdokuroCorre\\sprOdokuroCorre.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "19780337-c0ea-4b7c-8040-d892fad12036",
             "Value": {
                 "id": "853ed66a-e91c-41c8-9a54-57a0f140f000",
@@ -571,6 +579,14 @@
             "Value": {
                 "id": "6c71d0a1-0b0c-485d-bd8b-7069905cf80a",
                 "resourcePath": "views\\3900f354-8dad-46cb-9df1-3bee37d748ab.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "395e91fc-b03c-4749-9179-c0c9d88cafa3",
+            "Value": {
+                "id": "80719ec6-ef1d-4b42-ace7-fa1b727273b9",
+                "resourcePath": "views\\395e91fc-b03c-4749-9179-c0c9d88cafa3.yy",
                 "resourceType": "GMFolder"
             }
         },
@@ -1071,6 +1087,14 @@
             }
         },
         {
+            "Key": "5ec9ca00-8c8e-40bb-8163-2210b2267a4a",
+            "Value": {
+                "id": "c00b2b37-b9d5-4ad4-899a-8828a46a2dd9",
+                "resourcePath": "objects\\objControleboss\\objControleboss.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "5f65a617-dce3-45c8-bd4a-7c70fc0529d8",
             "Value": {
                 "id": "93e24fd2-60a9-4c92-a79c-c2a66630719e",
@@ -1132,6 +1156,14 @@
                 "id": "d78a78a5-f05f-47cc-841f-d0e6d6d077b0",
                 "resourcePath": "scripts\\__ext_DSGrid\\__ext_DSGrid.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "61a936a9-fd37-486f-960f-ba1735766e9a",
+            "Value": {
+                "id": "72367a7e-41cc-4f8f-9a17-60fe5ee48896",
+                "resourcePath": "objects\\obj_Odokuro\\obj_Odokuro.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -1260,6 +1292,14 @@
                 "id": "63577e2a-0b26-4cd1-a95e-d0f7c0505861",
                 "resourcePath": "views\\6cf8c245-34b4-48ef-8697-e1b3fe822ec6.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "6ddf1b5b-c587-4fb1-8b12-3ef5ee96fcc6",
+            "Value": {
+                "id": "626aa39f-3ee4-454a-9a24-ea858b5eded7",
+                "resourcePath": "sprites\\sprIconeGrande\\sprIconeGrande.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -1791,6 +1831,14 @@
             }
         },
         {
+            "Key": "9be34009-22c8-495b-a128-4ded884bde7d",
+            "Value": {
+                "id": "7682d16a-2aef-4973-b255-a52783df5e22",
+                "resourcePath": "sprites\\sprIconeNormal\\sprIconeNormal.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "9be49824-2653-435a-bf76-98b98ea9ae25",
             "Value": {
                 "id": "14f3fa1a-8c59-4f3b-ba1d-05669520109a",
@@ -1988,6 +2036,14 @@
                 "id": "fb7b1e0f-ebc8-4dca-b26b-057f554a641c",
                 "resourcePath": "scripts\\TPUser\\TPUser.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "a9188620-a624-4a5a-83ae-a1b53faf038b",
+            "Value": {
+                "id": "a505e87d-415e-4a67-bec1-5bb418e63782",
+                "resourcePath": "options\\linux\\options_linux.yy",
+                "resourceType": "GMLinuxOptions"
             }
         },
         {
@@ -2559,6 +2615,14 @@
             }
         },
         {
+            "Key": "d94ab32e-355b-4ef4-aaec-6514c1978e0c",
+            "Value": {
+                "id": "3f111f29-4426-43c2-9163-f5e5c883a86e",
+                "resourcePath": "sprites\\sprOdokuroIdle\\sprOdokuroIdle.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "da1c4ba0-56a7-4b43-ac53-d6c0bff6048b",
             "Value": {
                 "id": "e24da891-f0ee-4e9c-94b4-1563b73eb9c5",
@@ -2924,6 +2988,14 @@
                 "id": "61fe67cd-cd91-4279-9f79-12f0f71ffda1",
                 "resourcePath": "scripts\\path_position__\\path_position__.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "f418569b-3bdd-4706-a0e4-364317f54032",
+            "Value": {
+                "id": "8fa2ebe2-597a-4e79-a942-c1663213b960",
+                "resourcePath": "options\\mac\\options_mac.yy",
+                "resourceType": "GMMacOptions"
             }
         },
         {

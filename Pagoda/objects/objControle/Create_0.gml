@@ -18,17 +18,7 @@ application_surface_enable(0);
 
 #region Status Jogo
 
-globalvar telas;
-telas = noone;
 
-enum telaatual {
-	apresentacao,
-	tutorial,
-	boss1,
-	boss2,
-	perde,
-	neutra
-};
 
 globalvar PAUSE;
 PAUSE = 0;
@@ -274,5 +264,34 @@ enum estado_personagem {
 #endregion Jogo de plataforma
 
 #region Jogo/Atividade
+globalvar telas;
+telas = noone;
+
+enum telaatual {
+	apresentacao,
+	tutorial,
+	boss1,
+	boss2,
+	perde,
+	neutra
+};
+
+#region boss
+globalvar boss;
+boss = noone;
+
+enum bossatual{
+	odokuro
+};
+
+
+enum statusboss{
+	idle,
+	corre,
+	para,
+	bate
+};
+
+#endregion boss
 
 #endregion Jogo/Atividade
