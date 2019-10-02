@@ -39,6 +39,14 @@
             }
         },
         {
+            "Key": "03d64f33-1bef-414c-b1f4-12bb58674882",
+            "Value": {
+                "id": "6d2ab454-7239-4650-b938-641713a5a3c8",
+                "resourcePath": "sprites\\sprLakito\\sprLakito.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "05439b96-323c-4546-b4dd-6f31dcf34a7c",
             "Value": {
                 "id": "36be6ea9-f58b-475c-8cb8-7e6c79575a62",
@@ -143,6 +151,14 @@
             }
         },
         {
+            "Key": "0eb8422c-eb49-40b2-ba17-e4b81cbc0771",
+            "Value": {
+                "id": "de37924f-a7df-4ef0-82f3-fa2d918d6b23",
+                "resourcePath": "objects\\objControleSpawnPedra3\\objControleSpawnPedra3.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "0f5faea6-914f-491b-944d-4ff350dc0c30",
             "Value": {
                 "id": "1bd9f7b7-94cd-4d93-ad11-d2ca7bababd9",
@@ -171,14 +187,6 @@
             "Value": {
                 "id": "209dc893-0280-41bd-8158-29774c996eab",
                 "resourcePath": "objects\\obj_coluna\\obj_coluna.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
-            "Key": "12169ced-d99c-4994-be4f-8a8a886c4a83",
-            "Value": {
-                "id": "77f127b1-8d04-4f07-a595-aabdbb0c48d5",
-                "resourcePath": "objects\\obj_muitobem\\obj_muitobem.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -535,6 +543,14 @@
             }
         },
         {
+            "Key": "33524e6f-804a-4eab-b219-d6ae915465ac",
+            "Value": {
+                "id": "e50887c0-bf00-49c7-ae21-0f918d32c698",
+                "resourcePath": "objects\\objControleSpawnPedra0\\objControleSpawnPedra0.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "3527f86c-ed45-4850-947b-9015d2e371a1",
             "Value": {
                 "id": "c2f167b3-6461-439b-bfa6-d7e1df3fbe02",
@@ -599,6 +615,14 @@
             }
         },
         {
+            "Key": "39f0ac40-0f43-4176-af8a-cf1b191284d7",
+            "Value": {
+                "id": "327ae0b1-491c-4fd0-9335-bff27401250c",
+                "resourcePath": "objects\\objControleSpawnPedra4\\objControleSpawnPedra4.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "3a4b4928-d311-42f2-8634-f96fd0c48265",
             "Value": {
                 "id": "37bc2d58-19d4-4ea6-b662-d50938f9b709",
@@ -644,6 +668,14 @@
                 "id": "1adfb572-81a5-463f-b30c-6ac2e8ea9a99",
                 "resourcePath": "sprites\\spr_logopagoda\\spr_logopagoda.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "3e05dba9-6a0b-4307-b2df-7a579786a9b7",
+            "Value": {
+                "id": "88236b22-7790-4d9d-a5c6-008f5428340a",
+                "resourcePath": "objects\\objControleSpawnPedra2\\objControleSpawnPedra2.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -892,14 +924,6 @@
                 "id": "756ce307-d705-4b39-8af9-55581822e43e",
                 "resourcePath": "views\\51efd83c-2dfc-4921-a1f8-70b3b05ea1fe.yy",
                 "resourceType": "GMFolder"
-            }
-        },
-        {
-            "Key": "527ab1e9-6dac-40fc-9aa9-bd1fe9e1ac37",
-            "Value": {
-                "id": "b5cb744d-fc92-4f99-8cc5-a9ba5a4c64e1",
-                "resourcePath": "objects\\obj_erro\\obj_erro.yy",
-                "resourceType": "GMObject"
             }
         },
         {
@@ -1447,6 +1471,14 @@
             }
         },
         {
+            "Key": "7b011890-8edf-4cf2-bf12-3a8412a569fb",
+            "Value": {
+                "id": "a9e34f5d-54b2-44b5-94ff-3ee448f581f5",
+                "resourcePath": "objects\\objControleSpawnPedra1\\objControleSpawnPedra1.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "7ca72220-8e4f-4fc0-b9d3-abfdac232c3a",
             "Value": {
                 "id": "a69e64c9-8ac4-414f-b756-521c5c343ec7",
@@ -1532,6 +1564,14 @@
                 "id": "94f9ca88-ace9-4c0a-b204-40bd15f1a0dd",
                 "resourcePath": "objects\\objPaiBaseArrastavel\\objPaiBaseArrastavel.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "82607e84-8c38-4a4f-821e-c6898acc1870",
+            "Value": {
+                "id": "d7492891-ac5e-4be0-bf3b-ece83ad75f28",
+                "resourcePath": "views\\82607e84-8c38-4a4f-821e-c6898acc1870.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -1644,6 +1684,14 @@
                 "id": "ae8f1be4-77a2-4a28-a67b-1679afb1a9e8",
                 "resourcePath": "scripts\\TweenEasySpeed\\TweenEasySpeed.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "889981a9-325b-4d1a-b3d9-2c2acfc1de1f",
+            "Value": {
+                "id": "97a1f512-21eb-4888-bb7d-f08616645b72",
+                "resourcePath": "objects\\objPedra\\objPedra.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -1943,6 +1991,14 @@
             }
         },
         {
+            "Key": "a1e04b3f-f789-4ac8-88f1-65440230be23",
+            "Value": {
+                "id": "8bf296e8-59fe-4f88-bead-01bbc4c917bc",
+                "resourcePath": "sprites\\sprPedraCaindo\\sprPedraCaindo.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "a2320b11-50da-49d7-b9a3-665489cd281f",
             "Value": {
                 "id": "ef2075a3-faa7-4479-9e58-7fb8bd6c5386",
@@ -2060,6 +2116,14 @@
                 "id": "df662667-26a2-450c-acf9-8e3a59491970",
                 "resourcePath": "views\\aa602155-57b9-4e0c-95dc-1b1d8d753a43.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "aaa1cdb1-b779-4d24-b13c-5372b0ac8a6d",
+            "Value": {
+                "id": "569a0eb5-5d6f-4189-b3a4-e241526b5514",
+                "resourcePath": "sprites\\sprPedraExplode\\sprPedraExplode.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -2247,6 +2311,14 @@
             }
         },
         {
+            "Key": "b79ad8d8-0a1e-423b-ae40-61aa6e32a992",
+            "Value": {
+                "id": "01e17774-a8bb-4268-9bd8-998dddbf75f0",
+                "resourcePath": "views\\b79ad8d8-0a1e-423b-ae40-61aa6e32a992.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "b82fe329-9435-4e41-9db5-58b9d5abc310",
             "Value": {
                 "id": "0cf37a6e-7a04-4edf-b33b-a896ba472949",
@@ -2348,6 +2420,14 @@
                 "id": "5a8945b0-d4f8-4355-8c38-ecd161d58090",
                 "resourcePath": "scripts\\TweensGroup\\TweensGroup.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "c3d4330a-c665-4895-89c5-e0d0a2081318",
+            "Value": {
+                "id": "a9ca2e50-f98e-418a-a05d-d4d028f1be73",
+                "resourcePath": "objects\\objControleSpawnPedra5\\objControleSpawnPedra5.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -2844,6 +2924,14 @@
                 "id": "c3514f12-22b0-4227-9160-3849a7d27a1b",
                 "resourcePath": "scripts\\draw_text_outline\\draw_text_outline.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "e8779363-d8e4-4c48-bac2-be13d009021b",
+            "Value": {
+                "id": "5a8a4813-22a0-46d1-8d06-280c1d0d73ef",
+                "resourcePath": "objects\\objSpawn\\objSpawn.yy",
+                "resourceType": "GMObject"
             }
         },
         {

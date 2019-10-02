@@ -1,14 +1,14 @@
 {
-    "id": "12169ced-d99c-4994-be4f-8a8a886c4a83",
+    "id": "0eb8422c-eb49-40b2-ba17-e4b81cbc0771",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_muitobem",
+    "name": "objControleSpawnPedra3",
     "eventList": [
         
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
-    "parentObjectId": "077cae68-e752-48fb-aa16-fa3549c3c765",
+    "parentObjectId": "e8779363-d8e4-4c48-bac2-be13d009021b",
     "persistent": false,
     "physicsAngularDamping": 0.1,
     "physicsDensity": 0.5,
@@ -24,6 +24,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "00000000-0000-0000-0000-000000000000",
+    "spriteId": "03d64f33-1bef-414c-b1f4-12bb58674882",
     "visible": true
 }

@@ -1,4 +1,6 @@
 /// @description troca sprite
+image_xscale = escala*escalas;
+image_yscale = escala;
 
 if(ultimoEstado != estadoAtual)
 {
@@ -11,7 +13,7 @@ if(ultimoEstado != estadoAtual)
 switch(estadoAtual)
 {
 	case statusboss.idle:
-		trocaestado = 4;
+		trocaestado = 6;
 		image_speed = 1;
 		sprite_index = sprOdokuroIdle;
 		proximoEstado = statusboss.corre;

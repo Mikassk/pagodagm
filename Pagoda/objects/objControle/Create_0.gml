@@ -264,6 +264,9 @@ enum estado_personagem {
 #endregion Jogo de plataforma
 
 #region Jogo/Atividade
+globalvar podespawn;
+podespawn = 0;
+
 globalvar telas;
 telas = noone;
 
