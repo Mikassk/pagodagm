@@ -26,17 +26,18 @@ if(estadoAtual == statusboss.corre){
 	if(!spawn1 && !lado){
 	
 		if(conta <6){
-			podespawn = 0;
+			
 			event_user(3);
 		}
 	}
-	if( !lado && podespawn){
+	if(!lado && podespawn){
 		conta = 0;
 		with(objSpawn){
 			if(spawnpedra >= maxspawn){
 				spawnpedra =0;
 			}
 		}
+		podespawn = 0;
 	}
 
 	if(!lado){

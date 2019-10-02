@@ -327,6 +327,14 @@
             }
         },
         {
+            "Key": "1d8f8be7-7d85-4593-a62e-490f2d9a674d",
+            "Value": {
+                "id": "38be013d-ed1b-407c-b935-c3ca3a3af1a7",
+                "resourcePath": "views\\1d8f8be7-7d85-4593-a62e-490f2d9a674d.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "1da9d2ed-9ba1-42db-ba56-d4c9155b123e",
             "Value": {
                 "id": "7a311bf0-8407-43d2-ac80-2efeea04ecd2",
@@ -1119,6 +1127,14 @@
             }
         },
         {
+            "Key": "5f296bfb-d8ba-4901-bde3-bb8ce019dcf5",
+            "Value": {
+                "id": "86c08d72-fe38-42b6-94fe-2452e708fa15",
+                "resourcePath": "objects\\objJorogumo\\objJorogumo.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "5f65a617-dce3-45c8-bd4a-7c70fc0529d8",
             "Value": {
                 "id": "93e24fd2-60a9-4c92-a79c-c2a66630719e",
@@ -1295,6 +1311,14 @@
             }
         },
         {
+            "Key": "6b1f7925-fd23-4eda-81e9-49943ce2d1cf",
+            "Value": {
+                "id": "ee8bef93-5a5b-4a28-8e9b-47ad6643f410",
+                "resourcePath": "sprites\\sprJorogumoTocando\\sprJorogumoTocando.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "6b571bd7-4b4b-4975-a12a-f1b389284a81",
             "Value": {
                 "id": "76d0eab8-e6b6-445c-85bb-3062b54f57f3",
@@ -1388,6 +1412,14 @@
                 "id": "27ac2cb3-139d-43a1-a3b4-8507158fad8d",
                 "resourcePath": "scripts\\image_xscale__\\image_xscale__.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "73459360-a36d-46d2-a64c-f969b7ffde9e",
+            "Value": {
+                "id": "473c93b1-8b50-47a3-aa64-c7c7e49aaff4",
+                "resourcePath": "rooms\\rmTelaBoss2\\rmTelaBoss2.yy",
+                "resourceType": "GMRoom"
             }
         },
         {
@@ -1548,6 +1580,14 @@
                 "id": "c4b810b2-b22f-467b-8c67-09b29b709c09",
                 "resourcePath": "scripts\\path_speed__\\path_speed__.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "809f0779-6de1-4709-beae-ed5d595ecfb0",
+            "Value": {
+                "id": "449ce411-8285-4166-b0b2-87f49de324e3",
+                "resourcePath": "views\\809f0779-6de1-4709-beae-ed5d595ecfb0.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -2135,6 +2175,14 @@
             }
         },
         {
+            "Key": "abf2326c-f0bd-4a8a-891d-caffe3a34642",
+            "Value": {
+                "id": "ddf238c4-8cfb-4f92-97d9-49c47e72e4da",
+                "resourcePath": "sprites\\sprJorogumoAtaque\\sprJorogumoAtaque.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "ac447f75-a60f-41df-9196-7cdec549e558",
             "Value": {
                 "id": "fa983bb2-b915-464e-ae43-8ddd5ae98297",
@@ -2204,6 +2252,14 @@
                 "id": "28921ef3-7218-4163-af03-aaf5084fd797",
                 "resourcePath": "scripts\\TGMS_TweensExecute\\TGMS_TweensExecute.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "b092e4ac-9622-426e-bdbd-988adb9894fe",
+            "Value": {
+                "id": "421a0956-51dd-40de-b3b0-e6d59949d020",
+                "resourcePath": "sprites\\sprJorogumoCorrendo\\sprJorogumoCorrendo.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -2367,6 +2423,14 @@
             }
         },
         {
+            "Key": "bdf94021-a7be-484e-9695-46dbd572e998",
+            "Value": {
+                "id": "29903158-7205-41a3-b28c-7bf5569ec909",
+                "resourcePath": "sprites\\sprJorogumoIdle\\sprJorogumoIdle.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "bed17dca-b272-48eb-aa44-d22ceabfe9dd",
             "Value": {
                 "id": "cc08cf6b-3899-482b-93a6-cf46d1f56a18",
@@ -2420,6 +2484,14 @@
                 "id": "5a8945b0-d4f8-4355-8c38-ecd161d58090",
                 "resourcePath": "scripts\\TweensGroup\\TweensGroup.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "c1f7e6e2-2341-46e0-ab69-48c1f2e46031",
+            "Value": {
+                "id": "b68a1301-6917-45e9-8e35-f294c7209db1",
+                "resourcePath": "sprites\\sprJorogumoCaindo\\sprJorogumoCaindo.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -2871,6 +2943,14 @@
             }
         },
         {
+            "Key": "e640f488-345a-404c-9f56-f1c7fdc01eae",
+            "Value": {
+                "id": "1f367e5e-609d-49cd-a8e1-13eb870bc69a",
+                "resourcePath": "sprites\\sprJorogumoDano\\sprJorogumoDano.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "e67612d9-aea3-4be4-8107-a0b63e0a94db",
             "Value": {
                 "id": "d15fccb8-044e-4c33-9c2a-6f090c74724c",
@@ -2908,6 +2988,14 @@
                 "id": "48132dbb-cce2-442c-8d1a-f393193281bf",
                 "resourcePath": "views\\e73dc819-cf4d-4908-8af3-bd41fbfa3148.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "e762425c-0cf2-426b-bf63-03de9f6a95ef",
+            "Value": {
+                "id": "6dbbea6e-6ee2-4fc9-bfdb-745886c15c03",
+                "resourcePath": "sprites\\sprJorogumoSubindo\\sprJorogumoSubindo.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
