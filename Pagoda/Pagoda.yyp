@@ -303,6 +303,14 @@
             }
         },
         {
+            "Key": "19ec5456-581e-42e4-a8bc-373f08b35e38",
+            "Value": {
+                "id": "be704d0c-a718-4cd3-a8e4-edc3eb103a10",
+                "resourcePath": "sprites\\sprTopo\\sprTopo.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "1af7f9de-252d-451f-bb2d-bb70c359c8cf",
             "Value": {
                 "id": "b1e3a3e7-6cbb-4ed6-bfbc-787ce1c5192f",
@@ -524,6 +532,14 @@
                 "id": "0eeb9ee0-68e3-4fa0-9bfa-faa72ec1ed18",
                 "resourcePath": "scripts\\instance_create_transicao_tela\\instance_create_transicao_tela.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "31282e4e-6f4a-45aa-9347-072b25bd61a2",
+            "Value": {
+                "id": "45d53beb-a082-4744-b35c-e0e6a19db291",
+                "resourcePath": "sprites\\sprFeedbackpedra\\sprFeedbackpedra.yy",
+                "resourceType": "GMSprite"
             }
         },
         {

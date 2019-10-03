@@ -20,9 +20,9 @@ else{
 }
 #endregion flipa boss
 
-
+#region corre // spawn pedra
 if(estadoAtual == statusboss.corre){
-	
+#region spawner pedra	
 	if(!spawn1 && !lado){
 	
 		if(conta <6){
@@ -30,16 +30,17 @@ if(estadoAtual == statusboss.corre){
 			event_user(3);
 		}
 	}
-	if(!lado && podespawn){
+	if(lado && podespawn){
 		conta = 0;
+		spawn1 = 0;
 		with(objSpawn){
 			if(spawnpedra >= maxspawn){
-				spawnpedra =0;
+				spawnpedra = 0;
 			}
 		}
 		podespawn = 0;
 	}
-
+#endregion spawn pedra
 	if(!lado){
 		speed = -vx;
 	}
@@ -49,6 +50,10 @@ if(estadoAtual == statusboss.corre){
 	
 	
 }
+#endregion corre
+
+#region idle
 if(estadoAtual == statusboss.idle){
 	speed = 0;
 }
+#endregion idle
