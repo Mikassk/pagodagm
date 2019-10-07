@@ -1,4 +1,4 @@
 /// @description 
 if(spawn){
-	event_user(0);
+	event_user(1);
 }

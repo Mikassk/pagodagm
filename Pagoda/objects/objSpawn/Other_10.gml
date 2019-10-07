@@ -1,5 +1,5 @@
 /// @description 
-spawn = 0;
+
 
 if(spawnpedra <=maxspawn){
 	
