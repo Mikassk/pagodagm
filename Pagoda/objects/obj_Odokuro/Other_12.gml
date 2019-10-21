@@ -36,6 +36,7 @@ if(estadoAtual == statusboss.corre){
 		with(objSpawn){
 			if(spawnpedra >= maxspawn){
 				spawnpedra = 0;
+				feedbackspawn = 0;
 			}
 		}
 		podespawn = 0;

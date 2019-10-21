@@ -1,6 +1,8 @@
 /// @description 
-spawn = 0;
-var a= instance_create_layer(x,y+64,"HUD",objFeedbackSpawn);
-with(a){
-	indexspawn = id;
+if(!feedbackspawn){
+	feedbackspawn = 1;
+	image_speed = 1;
+}
+else{
+	event_user(0);
 }

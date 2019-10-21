@@ -1,7 +1,7 @@
 {
     "id": "61382350-8a2f-43b7-b7f8-a580161fd99e",
     "modelName": "GMExtension",
-    "mvc": "1.0",
+    "mvc": "1.2",
     "name": "caixa_de_texto",
     "IncludedResources": [
         
@@ -20,6 +20,7 @@
     "copyToTargets": 32,
     "date": "2018-28-16 02:05:37",
     "description": "",
+    "exportToGame": true,
     "extensionName": "",
     "files": [
         {
@@ -132,9 +133,12 @@
     "maccompilerflags": "",
     "maclinkerflags": "",
     "macsourcedir": "",
+    "options": null,
+    "optionsFile": "options.json",
     "packageID": "",
     "productID": "",
     "sourcedir": "",
+    "supportedTargets": 32,
     "tvosProps": false,
     "tvosSystemFrameworkEntries": [
         

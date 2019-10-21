@@ -279,12 +279,13 @@ enum telaatual {
 	neutra
 };
 
-#region boss
+#region boss 1
 globalvar boss;
 boss = noone;
 
 enum bossatual{
-	odokuro
+	odokuro,
+	jorogumo
 };
 
 
@@ -292,9 +293,24 @@ enum statusboss{
 	idle,
 	corre,
 	para,
-	bate
+	bate,
 };
 
 #endregion boss
+#region boss2
+enum statusboss2{
+	idle,
+	corre,
+	sobe,
+	ataque,
+	toca,
+	dano,
+	cai
+	
+}
+	
+
+#endregion boss2
+
 
 #endregion Jogo/Atividade

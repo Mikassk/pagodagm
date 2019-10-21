@@ -1,2 +1,0 @@
-/// @description 
-indexspawn = noone;

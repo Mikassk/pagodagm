@@ -1,7 +1,7 @@
 {
     "id": "bf3a7c85-91e0-4419-a6cd-6eef92002897",
     "modelName": "GMExtension",
-    "mvc": "1.0",
+    "mvc": "1.2",
     "name": "TweenGMS",
     "IncludedResources": [
         "Included Files\\TweenGMS\\Crummy Notes.txt",
@@ -57,6 +57,7 @@
     "copyToTargets": -1,
     "date": "2017-01-04 08:03:39",
     "description": "Tweening Engine",
+    "exportToGame": true,
     "extensionName": "",
     "files": [
         {
@@ -154,9 +155,12 @@
     "maccompilerflags": "",
     "maclinkerflags": "",
     "macsourcedir": "",
+    "options": null,
+    "optionsFile": "options.json",
     "packageID": "com.8bitwarrior.tweengms",
     "productID": "",
     "sourcedir": "",
+    "supportedTargets": -1,
     "tvosProps": false,
     "tvosSystemFrameworkEntries": [
         

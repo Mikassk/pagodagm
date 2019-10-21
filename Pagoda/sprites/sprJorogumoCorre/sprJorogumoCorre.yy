@@ -2,7 +2,7 @@
     "id": "b092e4ac-9622-426e-bdbd-988adb9894fe",
     "modelName": "GMSprite",
     "mvc": "1.12",
-    "name": "sprJorogumoCorrendo",
+    "name": "sprJorogumoCorre",
     "For3D": false,
     "HTile": false,
     "VTile": false,
