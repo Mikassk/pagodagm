@@ -7,7 +7,11 @@
     "inheritCreationOrder": false,
     "inheritLayers": false,
     "instanceCreationOrderIDs": [
-
+        "e3f7d4fa-614a-483b-94fd-19b00dd4bbe3",
+        "7ad6c7cd-b3c4-425d-bf90-9dfe752804e1",
+        "cec76801-50db-49ed-a6a0-0ec93b76be47",
+        "19b6bdbd-39f5-427f-85a2-e11375c7ba06",
+        "364e9d58-2a21-4d29-80b7-9937312f0eca"
     ],
     "IsDnD": false,
     "layers": [
@@ -77,7 +81,7 @@
             "inheritSubLayers": false,
             "inheritVisibility": false,
             "instances": [
-
+{"name": "inst_4FAAEECF","id": "19b6bdbd-39f5-427f-85a2-e11375c7ba06","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"imageIndex": 0,"imageSpeed": 1,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_4FAAEECF","objId": "6934b488-0883-446a-8c8b-689adc377253","properties": null,"rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.1","x": 251,"y": 644}
             ],
             "layers": [
 
@@ -103,7 +107,7 @@
             "inheritSubLayers": false,
             "inheritVisibility": false,
             "instances": [
-
+{"name": "inst_64B362AB","id": "364e9d58-2a21-4d29-80b7-9937312f0eca","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"imageIndex": 0,"imageSpeed": 1,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_64B362AB","objId": "5f296bfb-d8ba-4901-bde3-bb8ce019dcf5","properties": null,"rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.1","x": 873,"y": 184}
             ],
             "layers": [
 
@@ -129,7 +133,9 @@
             "inheritSubLayers": false,
             "inheritVisibility": false,
             "instances": [
-
+{"name": "inst_75709F76","id": "e3f7d4fa-614a-483b-94fd-19b00dd4bbe3","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"imageIndex": 0,"imageSpeed": 1,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_75709F76","objId": "55b2efe1-139b-45cd-ac1d-ea25266dc6fc","properties": null,"rotation": 0,"scaleX": 81,"scaleY": 15,"mvc": "1.1","x": 640,"y": 704},
+{"name": "inst_7A4F48DE","id": "7ad6c7cd-b3c4-425d-bf90-9dfe752804e1","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"imageIndex": 0,"imageSpeed": 1,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_7A4F48DE","objId": "55b2efe1-139b-45cd-ac1d-ea25266dc6fc","properties": null,"rotation": 0,"scaleX": 1,"scaleY": 47,"mvc": "1.1","x": -10,"y": -21},
+{"name": "inst_31952310","id": "cec76801-50db-49ed-a6a0-0ec93b76be47","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"imageIndex": 0,"imageSpeed": 1,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_31952310","objId": "55b2efe1-139b-45cd-ac1d-ea25266dc6fc","properties": null,"rotation": 0,"scaleX": 1,"scaleY": 45,"mvc": "1.1","x": 1288,"y": -7}
             ],
             "layers": [
 
@@ -166,7 +172,7 @@
             "m_serialiseFrozen": false,
             "modelName": "GMRBackgroundLayer",
             "mvc": "1.0",
-            "spriteId": "5e7ea35d-f7f5-4740-a930-9cbc11cd0cf3",
+            "spriteId": "eb108b6a-7842-49b0-889b-a57f3896725a",
             "stretch": false,
             "userdefined_animFPS": false,
             "userdefined_depth": false,

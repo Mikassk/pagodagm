@@ -305,7 +305,8 @@ enum statusboss2{
 	ataque,
 	toca,
 	dano,
-	cai
+	cai,
+	desce
 	
 }
 	
