@@ -8,6 +8,6 @@ if(estadoAtual == statusboss2.desce){
 	direction = 270;
 }
 if(estadoAtual == statusboss2.cai){
-	speed = 4.5;
+	speed = 4.2;
 	direction = 270;
 }

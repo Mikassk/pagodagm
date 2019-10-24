@@ -5,7 +5,7 @@ if(estadoAtual == statusboss2.desce){
 	}
 }
 if(estadoAtual == statusboss2.cai){
-	if(image_index ==2){
+	if(image_index == 2){
 		image_speed = 0;
 	}
 	if(place_meeting(x,y,objParede)){
