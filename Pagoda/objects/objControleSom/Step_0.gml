@@ -1,2 +1,2 @@
 /// @description 
-//room_restart();
+event_user(0);

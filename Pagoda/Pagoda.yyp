@@ -863,6 +863,14 @@
             }
         },
         {
+            "Key": "4bedaa62-e119-468f-b019-a9e3e38f7d85",
+            "Value": {
+                "id": "701d3809-607b-4fe2-9ccb-2b09d947efad",
+                "resourcePath": "objects\\objControleSom\\objControleSom.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "4dba8574-3388-4b12-8c2d-f96d85c77980",
             "Value": {
                 "id": "c092efcc-800b-4bd1-a693-3d67ea687f0a",
@@ -1484,6 +1492,14 @@
                 "id": "f5d92ee9-97d4-4e2b-954b-ce489c9c31eb",
                 "resourcePath": "objects\\obj_logooficial\\obj_logooficial.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "79eb21a9-78d6-4816-a4a2-82e485eaeff5",
+            "Value": {
+                "id": "2d0f4344-2220-4018-8385-10045439efe9",
+                "resourcePath": "sounds\\sndBiwaEntrada\\sndBiwaEntrada.yy",
+                "resourceType": "GMSound"
             }
         },
         {
@@ -3212,6 +3228,14 @@
                 "id": "2b700bf0-2622-49c0-aec5-2525ddcaa12e",
                 "resourcePath": "scripts\\roundx__\\roundx__.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "f5820b33-8e2b-4685-bc0c-3bfe458a18a4",
+            "Value": {
+                "id": "581ea6ac-bf13-4526-ab38-7b0947203c64",
+                "resourcePath": "sounds\\sndEntradaJorogumo\\sndEntradaJorogumo.yy",
+                "resourceType": "GMSound"
             }
         },
         {

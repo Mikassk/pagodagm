@@ -1,4 +1,4 @@
-/// @description Movimentos
+ /// @description Movimentos
 #region flipa boss
 if(estadoAtual == statusboss.corre){
 	escala = 5.8;

@@ -264,6 +264,8 @@ enum estado_personagem {
 #endregion Jogo de plataforma
 
 #region Jogo/Atividade
+globalvar entra;
+entra = 0;
 globalvar podespawn;
 podespawn = 0;
 
@@ -299,6 +301,7 @@ enum statusboss{
 #endregion boss
 #region boss2
 enum statusboss2{
+	entrada,
 	idle,
 	corre,
 	sobe,

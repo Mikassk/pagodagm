@@ -54,4 +54,10 @@ switch(estadoAtual)
 		sprite_index = sprJorogumoSubindo;
 		proximoEstado = statusboss.idle;
 	break;
+	case statusboss2.entrada:
+		image_speed = 1;
+		sprite_index = sprJorogumoCorre;
+		proximoEstado = statusboss2.toca;
+	break;
+	
 }

@@ -6,7 +6,8 @@
     "children": [
         "e062ceac-0802-4df7-b4b9-ae927a42fb45",
         "5ec9ca00-8c8e-40bb-8163-2210b2267a4a",
-        "e8779363-d8e4-4c48-bac2-be13d009021b"
+        "e8779363-d8e4-4c48-bac2-be13d009021b",
+        "4bedaa62-e119-468f-b019-a9e3e38f7d85"
     ],
     "filterType": "GMObject",
     "folderName": "controles",
