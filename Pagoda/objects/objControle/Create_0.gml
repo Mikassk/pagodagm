@@ -296,6 +296,10 @@ enum statusboss{
 	corre,
 	para,
 	bate,
+	explode,
+	morre,
+	desce
+	
 };
 
 #endregion boss

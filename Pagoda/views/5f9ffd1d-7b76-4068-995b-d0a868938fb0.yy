@@ -8,7 +8,8 @@
         "d01a6096-8e7b-4de1-a79d-f5db68ae8ef3",
         "61a936a9-fd37-486f-960f-ba1735766e9a",
         "889981a9-325b-4d1a-b3d9-2c2acfc1de1f",
-        "5f296bfb-d8ba-4901-bde3-bb8ce019dcf5"
+        "5f296bfb-d8ba-4901-bde3-bb8ce019dcf5",
+        "bb6e6a86-6e3e-4bfb-a2fb-3d4b5d741388"
     ],
     "filterType": "GMObject",
     "folderName": "Inimigos",

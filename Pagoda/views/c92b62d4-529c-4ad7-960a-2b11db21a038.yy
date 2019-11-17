@@ -8,7 +8,8 @@
         "6cd73722-c84f-49c7-b015-64df084b38fb",
         "395e91fc-b03c-4749-9179-c0c9d88cafa3",
         "03d64f33-1bef-414c-b1f4-12bb58674882",
-        "809f0779-6de1-4709-beae-ed5d595ecfb0"
+        "809f0779-6de1-4709-beae-ed5d595ecfb0",
+        "1ae24b77-9c7a-4af0-8ca7-39ac23370c0d"
     ],
     "filterType": "GMSprite",
     "folderName": "inimigos",

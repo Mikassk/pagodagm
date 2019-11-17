@@ -1,0 +1,2 @@
+/// @description 
+estadoAtual = statusboss.explode;

@@ -311,6 +311,14 @@
             }
         },
         {
+            "Key": "1ae24b77-9c7a-4af0-8ca7-39ac23370c0d",
+            "Value": {
+                "id": "326c30ca-cf68-4e13-b5c0-875583d4b836",
+                "resourcePath": "views\\1ae24b77-9c7a-4af0-8ca7-39ac23370c0d.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "1af7f9de-252d-451f-bb2d-bb70c359c8cf",
             "Value": {
                 "id": "b1e3a3e7-6cbb-4ed6-bfbc-787ce1c5192f",
@@ -1927,6 +1935,14 @@
             }
         },
         {
+            "Key": "95fa1a05-8d45-4b2f-bebe-9577b2f63038",
+            "Value": {
+                "id": "f38860d2-c8a5-4151-931f-b6eab26aa727",
+                "resourcePath": "sprites\\sprMiniAPrepara\\sprMiniAPrepara.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "96ecb684-c6ef-4eaf-9243-15b4fd2a05de",
             "Value": {
                 "id": "46b87b1a-4b0d-4d39-90ff-cd0074f9615d",
@@ -2439,6 +2455,14 @@
             }
         },
         {
+            "Key": "bb6e6a86-6e3e-4bfb-a2fb-3d4b5d741388",
+            "Value": {
+                "id": "622d8448-e197-4ce1-b429-26054deaed78",
+                "resourcePath": "objects\\objMiniAranha\\objMiniAranha.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "bc1759db-e8ca-4a17-a577-45cb9b5dede2",
             "Value": {
                 "id": "64754a3b-6e42-4e65-bb33-d2905e09dd87",
@@ -2459,6 +2483,14 @@
             "Value": {
                 "id": "29903158-7205-41a3-b28c-7bf5569ec909",
                 "resourcePath": "sprites\\sprJorogumoIdle\\sprJorogumoIdle.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "be06c326-f6e6-4fe6-81a1-2ea4b326d040",
+            "Value": {
+                "id": "ad0985c4-7e16-4257-b535-f143f0c00c1a",
+                "resourcePath": "sprites\\sprMiniAAnda\\sprMiniAAnda.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -3340,6 +3372,14 @@
                 "id": "8806ddfb-8f6d-410b-b9da-d98a72bade8a",
                 "resourcePath": "scripts\\__health\\__health.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "fe0c34cf-a831-420f-b08b-9ee0ad632dba",
+            "Value": {
+                "id": "b5c3802f-2e28-4093-8f22-184e5648782c",
+                "resourcePath": "sprites\\sprMiniAExplode\\sprMiniAExplode.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
