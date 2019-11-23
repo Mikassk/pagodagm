@@ -8,7 +8,7 @@ if(move != 0)
 if(place_meeting(x, y + 1, objParede))
 {
 	if(!bate){
-	    if(move != 0)
+	    if(move != 0 && !soltar)
 	    {
 	        estadoAtual = estado_personagem.andando;
 			anda = 1;
@@ -56,4 +56,14 @@ if(move == 0 && keyup && jumps>1){
 }
 else{
 	olhacima = 0;
+}
+if(soltar){
+	if(!spawna){
+		spawna = 1;
+		alarm[1] = room_speed*6;
+	}
+	estadoAtual = estado_personagem.preso;
+}
+else{
+	spawna = 1;
 }

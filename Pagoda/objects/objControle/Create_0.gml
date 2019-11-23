@@ -258,7 +258,8 @@ enum estado_personagem {
 	morre,
 	abaixa,
 	puloduplo,
-	cima
+	cima,
+	preso
 };
 
 #endregion Jogo de plataforma

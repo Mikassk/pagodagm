@@ -37,4 +37,35 @@ if(vsp < 0)
 if(vsp < vspmax){
 	vspmax = vsp;
 }
+if(soltar){
+	
+	if(contsolta < 10){
+		
+		if(keyleft_ ){
+			if(teclaanterior != keyleft){
+				teclaanterior = keyleft;
+				contsolta +=1;
+				alarm[0]=room_speed/2;
+			}
+			else{
+				contsolta = 0;
+				
+			}
+			
+		}
+		else if(keyright_){
+			if( teclaanterior != keyright){
+				teclaanterior = keyright;
+				contsolta +=1;
+				alarm[0]=room_speed/2;
+			}
+			else{
+				contsolta = 0;
+			}
+		}
+	}
+	if(contsolta >= 10){
+		soltar = 0;
+	}
+}
 	

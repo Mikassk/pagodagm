@@ -1,4 +1,4 @@
-/// @description 
+/// @description muda estados
 if(estadoAtual == statusboss.idle){
 	speed = 1.8;
 	direction = 270;
@@ -11,20 +11,20 @@ if(estadoAtual == statusboss.desce){
 	speed = 2.1;
 	direction = 270;
 	if(place_meeting(x,y+1,objParede)){
+		if(x <= room_width/2){
+		direction = 0;
+		}
+		else if(x >= room_width/2){
+			direction = 180;
+		}
 		estadoAtual = statusboss.corre;
 	}
 }
 if(estadoAtual == statusboss.corre){
+	event_user(3);
 	speed = 2;
-	if(x <= room_width/2){
-		direction = 0;
-	}
-	else if(x >= room_width/2){
-		direction = 180;
-	}
-	if(!explode){
-		event_user(2);
-	}
+	
+	
 	
 }
 if(estadoAtual == statusboss.explode){

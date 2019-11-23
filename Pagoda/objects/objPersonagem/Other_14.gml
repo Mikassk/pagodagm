@@ -48,6 +48,12 @@ switch(estadoAtual)
 		sprite_index = sprPersonagemCima;
 		break;
 	default:
+	case estado_personagem.preso:
+		movespeed = 0;
+		image_speed = 0;
+		sprite_index = sprPersonagemParado;
+		break;
+	default:
 		break;
 }
 

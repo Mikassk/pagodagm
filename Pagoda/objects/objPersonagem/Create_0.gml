@@ -19,12 +19,13 @@ keyright = noone;
 keyjump = noone;
 keydown = noone;
 keyatk = noone;
+keyup = noone;
 
 move = 0;
 #endregion fisica
 
 #region estado
-estadoAtual = estado_personagem.parado;
+estadoAtual = estado_personagem.preso;
 ultimoEstado = noone;
 
 #endregion estado
@@ -37,4 +38,9 @@ anda_ = 0;
 pulo2 = 0;
 olhacima = 0;
 
+contsolta = 0;
+soltar = 1;
+teclaanterior = noone;
+
+spawna = 0;
 #endregion variaveis
