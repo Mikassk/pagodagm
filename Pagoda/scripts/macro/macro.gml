@@ -28,6 +28,7 @@
 #macro VOLUME_EFF 0.1
 #macro VOLUME_ENTRADA 0.3
 #macro VOLUME_INST 0.4
+#macro VOLUME_MUSICA 0.6
 
 #endregion VOLUME
 

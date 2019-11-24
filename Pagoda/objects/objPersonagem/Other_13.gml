@@ -1,9 +1,12 @@
 /// @description Controla estadoAtual
-
+#region move e scale
 if(move != 0)
 {
 	image_xscale = 2 * move;
 }
+#endregion move e scale
+
+#region muda estados comum fisica
 
 if(place_meeting(x, y + 1, objParede))
 {
@@ -30,15 +33,23 @@ else
 		estadoAtual = estado_personagem.caindo;
 	}
 }
-//ataque
+#endregion muda estados comum
+
+#region ataque
 if(keyatk && !anda_){
 	bate = 1;
 	estadoAtual = estado_personagem.ataque;
 }
-if(keydown && !anda_){
+#endregion ataque
+
+#region abaixa
+if(keydown && !anda_ && place_meeting(x,y+1,objParede)){
 	abaixar = 1;
 	estadoAtual = estado_personagem.abaixa;
 }
+#endregion abaixa
+
+#region teste se esta andando
 if(keyboard_check(vk_left) || keyright){
 	anda_ = 1;
 }
@@ -46,10 +57,16 @@ if(keyboard_check(vk_left) || keyright){
 if(!keyboard_check(vk_left) && !keyright){
 	anda_ = 0;
 }
+#endregion teste se esta andando
+
+#region pulo duplo
 if((keyjump) && (jumps < 1)){
 	estadoAtual = estado_personagem.puloduplo;
 	pulo2 = 1;
 }
+#endregion pulo duplo
+
+#region olhar para cima
 if(move == 0 && keyup && jumps>1){
 	estadoAtual = estado_personagem.cima;
 	olhacima = 1;
@@ -57,6 +74,9 @@ if(move == 0 && keyup && jumps>1){
 else{
 	olhacima = 0;
 }
+#endregion olhar para cima
+
+#region soltar da tela
 if(soltar){
 	if(!spawna){
 		spawna = 1;
@@ -64,6 +84,15 @@ if(soltar){
 	}
 	estadoAtual = estado_personagem.preso;
 }
-else{
-	spawna = 1;
+
+#endregion soltar tela
+
+#region prender se nao andar
+if(estadoAtual == estado_personagem.parado && !soltar){
+	if(!spawna){
+		spawna = 1;
+		alarm[1] = room_speed*8;
+	}
 }
+
+#endregion prender se nao andar

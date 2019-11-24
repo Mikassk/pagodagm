@@ -12,3 +12,4 @@ if(!TELA_INICIAL)
 		room_goto(_room);
 	}
 }
+sound_play(sndMenu,1,VOLUME_MUSICA,0);

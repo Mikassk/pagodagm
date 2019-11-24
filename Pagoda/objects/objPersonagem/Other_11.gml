@@ -66,6 +66,13 @@ if(soltar){
 	}
 	if(contsolta >= 10){
 		soltar = 0;
+		spawna = 0;
+		
+		with(objJorogumo){
+			mudaestado = 1;
+		}
+		
+		
 	}
 }
 	

@@ -314,7 +314,8 @@ enum statusboss2{
 	toca,
 	dano,
 	cai,
-	desce
+	desce,
+	balanca
 	
 }
 	

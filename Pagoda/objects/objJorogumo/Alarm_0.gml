@@ -1,2 +1,3 @@
 /// @description desce parede
-estadoAtual = statusboss2.desce;
+py = y;
+estadoAtual = statusboss2.sobe;
