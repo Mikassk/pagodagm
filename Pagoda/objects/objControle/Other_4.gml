@@ -1,8 +1,9 @@
 /// @description Restarte
 
 #region Transição
-
-instance_create_transicao_tela(1, noone);
+if(room != rmTelaFinal){
+	instance_create_transicao_tela(1, noone);
+}
 
 #endregion Transição
 

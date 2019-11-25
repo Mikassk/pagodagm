@@ -69,7 +69,11 @@ if(soltar){
 		spawna = 0;
 		
 		with(objJorogumo){
-			mudaestado = 1;
+			if(!entra){
+				
+				mudaestado = 1;
+				
+			}
 		}
 		
 		

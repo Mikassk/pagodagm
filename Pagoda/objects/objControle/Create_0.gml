@@ -239,6 +239,8 @@ TEMPO_ALARM_CRONOMETRO = -1;
 #endregion Padrões
 
 #region Jogo de plataforma
+globalvar xperson;
+xperson = 0;
 
 enum key {
 	left = vk_left,
@@ -259,12 +261,16 @@ enum estado_personagem {
 	abaixa,
 	puloduplo,
 	cima,
-	preso
+	preso,
+	dano
 };
 
 #endregion Jogo de plataforma
 
 #region Jogo/Atividade
+globalvar morreu;
+morreu = 0;
+
 globalvar entra;
 entra = 0;
 globalvar podespawn;

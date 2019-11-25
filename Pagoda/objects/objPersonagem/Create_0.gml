@@ -43,4 +43,8 @@ soltar = 1;
 teclaanterior = noone;
 
 spawna = 0;
+
+dano = 0;
+
+morrefase = 0;
 #endregion variaveis

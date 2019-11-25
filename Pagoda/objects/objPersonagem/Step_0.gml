@@ -20,7 +20,7 @@ else
 	image_speed = 0;
 }
 #endregion status // tamanho
-
+xperson = x;
 if(bate){ // completar animação de bater
 	if(image_index > image_number -1){
 		bate = 0;
@@ -51,5 +51,21 @@ if(pulo2){
 	if(image_index > image_number -1){
 		image_speed = 0;
 		grav = 0.3;
+	}
+}
+if(estadoAtual == estado_personagem.morre){
+	if(image_index > image_number-1){
+		image_speed = 0;
+		
+	}
+}
+if(morreu){
+	if(!morrefase){
+		morrefase = 1;
+		sound_is_paused(sndMusicaJorogumo);
+		sound_play(sndMusicaFinal,0,VOLUME_ENTRADA,0);
+		alarm[2] = room_speed*2;
+		
+		
 	}
 }

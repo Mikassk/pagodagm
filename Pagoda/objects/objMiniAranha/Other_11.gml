@@ -34,6 +34,17 @@ if(estadoAtual == statusboss.explode){
 	}
 }
 if(estadoAtual == statusboss.morre){
+	if(place_meeting(x,y,objPersonagem)){
+		danomorre = 1;
+		with(objPersonagem){
+			dano =1;
+		}
+	}
+	else{
+		with(objPersonagem){
+			dano = 0;
+		}
+	}
 	speed = 0;
 	if(image_index > image_number -1 ){
 		if(!morre){

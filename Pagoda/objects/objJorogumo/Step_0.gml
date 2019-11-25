@@ -14,4 +14,16 @@ if(!lados){
 }
 if(lados){
 	escalas = -1;
+	
+}
+
+if(entraok && !entra){
+	
+	if(mudaestado){
+		mudaestado = 0;
+		entra = 1;
+		estadoAtual = proximoEstado;
+		
+	}
+	
 }

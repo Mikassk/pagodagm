@@ -279,6 +279,14 @@
             }
         },
         {
+            "Key": "18c74262-1610-4887-9fce-197c954c3884",
+            "Value": {
+                "id": "ebabdd12-0196-4607-b37a-9de15a1591a1",
+                "resourcePath": "sprites\\sprPersonagemPreso\\sprPersonagemPreso.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "19780337-c0ea-4b7c-8040-d892fad12036",
             "Value": {
                 "id": "853ed66a-e91c-41c8-9a54-57a0f140f000",
@@ -1103,6 +1111,14 @@
             }
         },
         {
+            "Key": "592c8cfc-bfc1-4e15-a1a1-6032184bdd7a",
+            "Value": {
+                "id": "6a323078-e302-4111-a213-80a97dfe76ac",
+                "resourcePath": "objects\\objPersonagemMorto\\objPersonagemMorto.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "59476664-532d-4b42-a5e8-e563e754471a",
             "Value": {
                 "id": "3172dfad-cb33-48d4-864a-92b3335594c0",
@@ -1179,6 +1195,14 @@
             "Value": {
                 "id": "c00b2b37-b9d5-4ad4-899a-8828a46a2dd9",
                 "resourcePath": "objects\\objControleboss\\objControleboss.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "5ef7bd38-3241-44ba-9e4d-98759743341d",
+            "Value": {
+                "id": "0a9ec77d-0ac3-46f1-acfb-ce32db53dafb",
+                "resourcePath": "objects\\objBkgFinal\\objBkgFinal.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -1564,6 +1588,14 @@
                 "id": "b3eb218b-51d7-4330-bc20-1e9dc08faa12",
                 "resourcePath": "views\\7a7b6156-88f7-4d72-ac76-aea7756a6e6f.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "7a92f6fb-71e2-4946-b4a5-61e0391fb7e5",
+            "Value": {
+                "id": "2ad44239-c01a-46ae-97b9-a10bb1310caa",
+                "resourcePath": "sounds\\sndMusicaFinal\\sndMusicaFinal.yy",
+                "resourceType": "GMSound"
             }
         },
         {
@@ -2924,6 +2956,14 @@
                 "id": "3f111f29-4426-43c2-9163-f5e5c883a86e",
                 "resourcePath": "sprites\\sprOdokuroIdle\\sprOdokuroIdle.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "d9e53da2-b311-4a1a-9fa7-a21903ed8f41",
+            "Value": {
+                "id": "dd389b4b-d37e-428b-8887-1983439244f3",
+                "resourcePath": "objects\\objControlePause\\objControlePause.yy",
+                "resourceType": "GMObject"
             }
         },
         {

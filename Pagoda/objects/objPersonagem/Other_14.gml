@@ -51,7 +51,17 @@ switch(estadoAtual)
 	case estado_personagem.preso:
 		movespeed = 0;
 		image_speed = 0;
-		sprite_index = sprPersonagemParado;
+		sprite_index = sprPersonagemPreso;
+		break;
+	case estado_personagem.dano:
+		movespeed = 0;
+		image_speed = 0;
+		
+		break;
+	case estado_personagem.morre:
+		morreu = 1;
+		image_speed = 1;
+		sprite_index = sprPersonagemMorrendo;
 		break;
 	default:
 		break;

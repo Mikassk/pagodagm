@@ -114,3 +114,7 @@ if(place_meeting(x, y + vsp, objParede))
 }
 
 y += vsp;
+
+if(place_meeting(x,y-1,objAtaqueTeia)){
+	soltar = 1;
+}

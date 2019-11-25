@@ -7,6 +7,15 @@ b =	instance_create_layer(1400,640,"boss",objMiniAranha);
 
 
 c = instance_create_layer(x,y,"boss",objAtaqueTeia);
-with(c){
-	//segue = 1;
+if(lados){
+	with(c){
+		direction = 290; // é para adicionar o que segue
+
+	}
+}
+else{
+	with(c){
+		direction = 250; // é para adicionar o que segue
+
+	}
 }

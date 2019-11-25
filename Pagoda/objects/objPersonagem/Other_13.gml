@@ -5,18 +5,20 @@ if(move != 0)
 	image_xscale = 2 * move;
 }
 #endregion move e scale
-
+if(!morreu){
 #region muda estados comum fisica
+
+
 
 if(place_meeting(x, y + 1, objParede))
 {
 	if(!bate){
-	    if(move != 0 && !soltar)
-	    {
-	        estadoAtual = estado_personagem.andando;
+		if(move != 0 && !soltar)
+		{
+		    estadoAtual = estado_personagem.andando;
 			anda = 1;
-	    }
-	    else if(move == 0 && !anda && !abaixar && !olhacima)
+		}
+		else if(move == 0 && !anda && !abaixar && !olhacima)
 		{
 			estadoAtual = estado_personagem.parado;
 		}
@@ -24,7 +26,7 @@ if(place_meeting(x, y + 1, objParede))
 }
 else
 {
-    if(vsp < 0 && !pulo2)
+	if(vsp < 0 && !pulo2)
 	{
 		estadoAtual = estado_personagem.pulando;
 	}
@@ -33,6 +35,7 @@ else
 		estadoAtual = estado_personagem.caindo;
 	}
 }
+
 #endregion muda estados comum
 
 #region ataque
@@ -91,8 +94,27 @@ if(soltar){
 if(estadoAtual == estado_personagem.parado && !soltar){
 	if(!spawna){
 		spawna = 1;
-		alarm[1] = room_speed*8;
+		alarm[1] = room_speed*7;
+	}
+}
+
+if(estadoAtual == estado_personagem.cima && !soltar){
+	if(!spawna){
+		spawna = 1;
+		alarm[1] = room_speed*7;
+	}
+}
+
+if(estadoAtual == estado_personagem.preso && !soltar){
+	if(!spawna){
+		spawna = 1;
+		alarm[1] = room_speed*6.8;
 	}
 }
 
 #endregion prender se nao andar
+} // fim morreu
+
+if(VIDAS <= 0){
+	estadoAtual = estado_personagem.morre;
+}

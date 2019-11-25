@@ -8,6 +8,7 @@ escalas = 1;
 
 explode = 0;
 morre = 0;
+danomorre = 0;
 
 image_xscale = escala;
 image_yscale = escala;

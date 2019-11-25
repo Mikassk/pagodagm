@@ -18,5 +18,11 @@ with(c){
 	direction = 305;
 }
 
+if(contaataque <=1){
+var d = 0;
+var e = 0;
 
+d = instance_create_layer(-100,640,"boss",objMiniAranha);
+e =	instance_create_layer(1400,640,"boss",objMiniAranha);
+}
 //alarm[2] = room_speed*2;
