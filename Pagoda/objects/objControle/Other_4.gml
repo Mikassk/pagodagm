@@ -1,7 +1,7 @@
 /// @description Restarte
 
 #region Transição
-if(room != rmTelaFinal){
+if(room != rmTelaFinal && room != rmTelaPause){
 	instance_create_transicao_tela(1, noone);
 }
 

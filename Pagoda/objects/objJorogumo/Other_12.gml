@@ -83,7 +83,8 @@ if((estadoAtual == statusboss2.toca) && (pontos == 1)){
 	if(!canta){
 		canta = 1;
 		alarm[3] = room_speed*2;
-		alarm[0] = room_speed*4; 
+		
+		alarm[0] = room_speed*5; 
 	}
 }
 

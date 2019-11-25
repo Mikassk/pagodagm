@@ -543,6 +543,14 @@
             }
         },
         {
+            "Key": "2e4e0b41-a0a6-4eb0-b909-4f5b9f532a10",
+            "Value": {
+                "id": "f9204c50-101a-453f-8d9c-4eab257e99ca",
+                "resourcePath": "sprites\\sprBate\\sprBate.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "2f7031a1-6962-4098-aaa3-16ece98dbd6d",
             "Value": {
                 "id": "0461b325-311b-463b-82ae-d39f532869bd",
@@ -1359,6 +1367,14 @@
             }
         },
         {
+            "Key": "678ce1bf-83bf-4a01-9b23-6b103170a706",
+            "Value": {
+                "id": "d9ce0cba-847c-4eaa-89a1-c0dba5b9427a",
+                "resourcePath": "sprites\\bkgtelaPause\\bkgtelaPause.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "68275771-4f7a-4d1c-b287-cb5b814d1fca",
             "Value": {
                 "id": "ecdd1283-c94f-44c6-a4c2-0364d46cc582",
@@ -1892,6 +1908,14 @@
                 "id": "639753c9-eac9-44e0-bdd3-ec83d1d9391f",
                 "resourcePath": "sounds\\sndMusicaJorogumo\\sndMusicaJorogumo.yy",
                 "resourceType": "GMSound"
+            }
+        },
+        {
+            "Key": "8d301636-ba90-44f3-9ac1-a3699bc4d371",
+            "Value": {
+                "id": "d2c78fd3-5673-434b-b985-a7574e30bdf2",
+                "resourcePath": "objects\\objBate\\objBate.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -2756,6 +2780,14 @@
                 "id": "5399f14c-87b4-45f4-8874-99b35cfa48f0",
                 "resourcePath": "scripts\\sound_pause\\sound_pause.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "ca335eaf-4e24-49a4-a458-93f0d2d538d8",
+            "Value": {
+                "id": "18c05b0a-3e4a-40b8-aa64-37ce2eb670dd",
+                "resourcePath": "rooms\\rmTelaPause\\rmTelaPause.yy",
+                "resourceType": "GMRoom"
             }
         },
         {

@@ -10,7 +10,7 @@ image_speed = 0;
 
 game_set_speed(60, gamespeed_fps);
 
-application_surface_enable(0);
+application_surface_enable(1);
 
 //window_center();
 
@@ -19,7 +19,8 @@ application_surface_enable(0);
 #region Status Jogo
 
 
-
+globalvar screenShot;
+screenShot  = noone ;
 globalvar PAUSE;
 PAUSE = 0;
 

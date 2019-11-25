@@ -30,5 +30,7 @@ if(room_exists(ROOM_INICIAL))
 }
 else
 {
-	transicao.alarm[fade] = 1;
+
+		transicao.alarm[fade] = 1;
+	
 }

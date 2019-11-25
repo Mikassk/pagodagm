@@ -1,5 +1,6 @@
 /// @description 
 image_angle = direction - 180;
+dist = distance_to_point(x0,y0);
 
 if(place_meeting(x,y+1,objParede)|| place_meeting(x,y+1,objPersonagem)){
 	speed = 0;

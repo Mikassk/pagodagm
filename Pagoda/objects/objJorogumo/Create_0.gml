@@ -32,3 +32,4 @@ canta = 0;
 para = 0;
 balanca = 0;
 entraok = 0;
+

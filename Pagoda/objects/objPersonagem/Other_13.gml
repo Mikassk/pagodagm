@@ -42,7 +42,37 @@ else
 if(keyatk && !anda_){
 	bate = 1;
 	estadoAtual = estado_personagem.ataque;
+	
 }
+//teste criar obj de ataque
+if(estadoAtual != estado_personagem.ataque){
+	if(instance_exists(objBate)){
+		with(objBate){
+			instance_destroy();
+		}
+	}
+}
+else{
+	if(move == 1){
+		var a = 0;
+		if(!instance_exists(objBate)){
+			a =	  instance_create_layer(x+16,y-29,"player",objBate);
+			  with(a){
+				  image_xscale = 1;
+			  }
+		}
+	}
+	else if(move == -1){
+		var a = 0;
+		if(!instance_exists(objBate)){
+			a =	  instance_create_layer(x-16,y-29,"player",objBate);
+			 with(a){
+				  image_xscale = -1;
+			  }
+		}
+	}
+}
+//
 #endregion ataque
 
 #region abaixa

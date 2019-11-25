@@ -17,6 +17,7 @@ else
 	_height = room_height;
 }
 
-draw_rectangle(x, y, _width, _height, 0);
+	draw_rectangle(x, y, _width, _height, 0);
 
-draw_set_alpha(1);
+	draw_set_alpha(1);
+

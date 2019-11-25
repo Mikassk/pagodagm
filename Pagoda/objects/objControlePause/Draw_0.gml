@@ -1,0 +1,1 @@
+draw_sprite(screenShot,0,512,384);
