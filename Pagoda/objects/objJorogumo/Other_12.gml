@@ -47,7 +47,7 @@ if(!dano){
 		speed = 0;
 		if(!ataca){
 			ataca = 1;
-			if(contaataque < 3){
+			if(contaataque < maxataque){
 				alarm[2] = room_speed*3;
 			}
 			else if(contaataque >= maxataque){
