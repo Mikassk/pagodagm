@@ -1,4 +1,4 @@
 /// @description 
-dist = point_direction(x,y,576,352);
+dist = point_direction(x,y,512,352);
 direction = dist;
 speed = 5;

@@ -1783,6 +1783,14 @@
             }
         },
         {
+            "Key": "81dc5704-7805-4e7b-9637-6e51d9d24f05",
+            "Value": {
+                "id": "f0ac5fd4-e0ab-4856-87fd-36d43fa4ffe5",
+                "resourcePath": "sounds\\sndClick\\sndClick.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "82579128-7002-4e86-b883-2726826e63e9",
             "Value": {
                 "id": "94f9ca88-ace9-4c0a-b204-40bd15f1a0dd",
