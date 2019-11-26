@@ -74,7 +74,7 @@ if(telas = telaatual.apresentacao){
 
 #endregion mudança tela apresentacao
 
-if(VIDAS <=5){
+if(VIDAS <=4){
 	if(room == rmTelaBoss2){
 		if(!instance_exists(objDano)){
 			instance_create_layer(room_width/2,room_height/2,"dano",objDano);
