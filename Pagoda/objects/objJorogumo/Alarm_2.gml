@@ -8,8 +8,20 @@ var c = 0;
 a = instance_create_layer(x,y,"boss",objAtaqueTeia);
 b = instance_create_layer(x,y,"boss",objAtaqueTeia);
 c = instance_create_layer(x,y,"boss",objAtaqueTeia);
-if(contaataque == 2){
-	alarm[4] = room_speed;
+if(vida >5){
+	if(contaataque == 2){
+		alarm[4] = room_speed;
+	}
+}
+else if(vida<=5){
+	if(contaataque == 2 || contaataque == 3){
+		alarm[4] = room_speed;
+	}
+}
+else if(vida<=2){
+	if(contaataque == 2 || contaataque == 3 || contaataque == 4 ){
+		alarm[4] = room_speed;
+	}
 }
 with(a){
 	direction = 270;

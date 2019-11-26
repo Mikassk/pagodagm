@@ -9,10 +9,10 @@ if(entra){
 	mudaescala = 1;
 }
 
-if(!lados){
+if(!lados && !dano){
 	escalas = 1;
 }
-if(lados){
+if(lados && !dano){
 	escalas = -1;
 	
 }
@@ -26,4 +26,16 @@ if(entraok && !entra){
 		
 	}
 	
+}
+if(vida >=5){
+	maxataque = 3;
+	ataquetoca = 2;
+}
+if(vida >=3 && vida <5){
+	maxataque = 4;
+	ataquetoca = 3;
+}
+if(vida <3){
+	maxataque = 4;
+	ataquetoca = 3;
 }

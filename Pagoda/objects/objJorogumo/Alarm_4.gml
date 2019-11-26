@@ -14,3 +14,9 @@ else{
 	 segue = 1;
 	}
 }
+if(vida<=5){
+	if(contaataque ==4){
+		alarm[4] = room_speed/3;
+	}
+	
+}

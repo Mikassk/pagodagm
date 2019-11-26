@@ -62,7 +62,7 @@ switch(estadoAtual)
 	break;
 	case statusboss2.balanca:
 		image_speed = 0;
-		sprite_index = sprJorogumoIdle;
+		sprite_index = sprJorogumoSubindo;
 		proximoEstado = statusboss2.sobe;
 	break;
 	

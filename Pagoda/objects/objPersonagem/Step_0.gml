@@ -20,6 +20,12 @@ else
 	image_speed = 0;
 }
 #endregion status // tamanho
+if(image_xscale >0){
+	scaleperson = 1;
+}
+else if (image_xscale <0){
+	scaleperson = -1;
+}
 xperson = x;
 if(bate){ // completar animação de bater
 	if(image_index > image_number -1){
@@ -68,4 +74,10 @@ if(morreu){
 		
 		
 	}
+}
+if(estadoAtual == estado_personagem.ataque){
+	teste = 1;
+}
+else if(estadoAtual != estado_personagem.ataque){
+	teste = 0;
 }

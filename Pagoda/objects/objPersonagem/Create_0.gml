@@ -47,4 +47,7 @@ spawna = 0;
 dano = 0;
 
 morrefase = 0;
+
+teste = 0;
 #endregion variaveis
+alarm[3] = room_speed*3;

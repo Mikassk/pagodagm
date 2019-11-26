@@ -3,6 +3,7 @@
 if(danomorre){
 	VIDAS -=1;
 	with(objPersonagem){
+		
 		dano = 0;
 	}
 }

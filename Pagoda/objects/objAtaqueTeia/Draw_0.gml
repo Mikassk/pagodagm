@@ -1,3 +1,3 @@
 /// @description 
 draw_self();
-draw_text(x,y,dist);
+//draw_text(x,y,dist);

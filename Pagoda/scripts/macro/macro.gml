@@ -25,7 +25,7 @@
 
 #macro VOLUME_FUNDO 0.05
 #macro VOLUME_NARRA 0.5
-#macro VOLUME_EFF 0.1
+#macro VOLUME_EFF 0.25
 #macro VOLUME_ENTRADA 0.3
 #macro VOLUME_INST 0.4
 #macro VOLUME_MUSICA 0.6

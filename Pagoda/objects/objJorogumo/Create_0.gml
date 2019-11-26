@@ -1,4 +1,5 @@
-/// @description 
+/// @description ]
+vida = 10;
 if(entra){
 	escala = 2;
 }
@@ -33,3 +34,7 @@ para = 0;
 balanca = 0;
 entraok = 0;
 
+dano = 0;
+danomuda = 0;
+maxataque = 0;
+ataquetoca = 0;

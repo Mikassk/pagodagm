@@ -37,7 +37,9 @@ if(estadoAtual == statusboss.morre){
 	if(place_meeting(x,y,objPersonagem)){
 		danomorre = 1;
 		with(objPersonagem){
-			dano =1;
+			if(estadoAtual != estado_personagem.ataque){
+				dano =1;
+			}
 		}
 	}
 	else{

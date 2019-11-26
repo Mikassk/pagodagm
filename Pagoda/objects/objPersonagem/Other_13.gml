@@ -39,39 +39,56 @@ else
 #endregion muda estados comum
 
 #region ataque
-if(keyatk && !anda_){
+if(keyatk && !anda_ && place_meeting(x,y+1,objParede)){
 	bate = 1;
+	if(place_meeting(x,y,objJorogumo)){
+		if(!sound_is_playing(sndBate)){
+					sound_play(sndBate,0,VOLUME_INST,1);
+			}
+	}
+
+	estadoAtual = estado_personagem.ataque;
+	
+}
+else if(keyatk  && !place_meeting(x,y+1,objParede)){
+	bate = 1;
+	if(place_meeting(x,y,objJorogumo)){
+		if(!sound_is_playing(sndBate)){
+					sound_play(sndBate,0,VOLUME_INST,1);
+			}
+	}
+	
 	estadoAtual = estado_personagem.ataque;
 	
 }
 //teste criar obj de ataque
-if(estadoAtual != estado_personagem.ataque){
-	if(instance_exists(objBate)){
-		with(objBate){
-			instance_destroy();
+if(estadoAtual == estado_personagem.ataque){
+	
+	if(image_xscale >0){
+		if(place_meeting(x,y-15,objJorogumo)){
+			
+			with(objJorogumo){
+				
+				if(estadoAtual == statusboss2.balanca){
+					dano = 1;
+					estadoAtual = statusboss2.cai;
+				}
+			}
+		}
+	}
+	else if(image_xscale <0){
+		if(place_meeting(x,y-15,objJorogumo)){
+			
+			with(objJorogumo){
+				if(estadoAtual == statusboss2.balanca){
+					dano = 1;
+					estadoAtual = statusboss2.cai;
+				}
+			}
 		}
 	}
 }
-else{
-	if(move == 1){
-		var a = 0;
-		if(!instance_exists(objBate)){
-			a =	  instance_create_layer(x+16,y-29,"player",objBate);
-			  with(a){
-				  image_xscale = 1;
-			  }
-		}
-	}
-	else if(move == -1){
-		var a = 0;
-		if(!instance_exists(objBate)){
-			a =	  instance_create_layer(x-16,y-29,"player",objBate);
-			 with(a){
-				  image_xscale = -1;
-			  }
-		}
-	}
-}
+
 //
 #endregion ataque
 

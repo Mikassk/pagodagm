@@ -1,0 +1,1 @@
+sound_pause(sndMusicaJorogumo);

@@ -240,6 +240,9 @@ TEMPO_ALARM_CRONOMETRO = -1;
 #endregion Padrões
 
 #region Jogo de plataforma
+
+globalvar scaleperson;
+scaleperson = 0;
 globalvar xperson;
 xperson = 0;
 

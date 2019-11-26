@@ -7,7 +7,7 @@ _y = 0;
 
 if(desenhaFundo)
 {
-	draw_set_color($000000);
+	//draw_set_color($000000);
 	
 	if(view_enabled)
 	{
@@ -28,7 +28,7 @@ if(desenhaFundo)
 		_height = room_height;
 	}
 		
-	draw_rectangle(_x, _y, _width, _height, 0);
+//	draw_rectangle(_x, _y, _width, _height, 0);
 }
 	
 if(sprite_exists(sprite_index))
